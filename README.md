@@ -3,3 +3,5 @@
 #### paper: https://paperswithcode.com/paper/a-memory-network-based-solution-for
 #### 논문에서는 LSTM을 Enoder로 사용하였지만, CNN이 특징추출에 도움이 될거라고 생각해서 LSTM 대신에 CNN(Conv1d)를 사용하였습니다.
 #### 그리고 kernel size 를 1x1로 하여서 local한 특징보다는 Sequence 하나하나의 특징을 얻게 하였습니다.
+
+#### 또한 Attention기법과 teacher forcing ratio를 통한 훈련을 진행하였습니다.
